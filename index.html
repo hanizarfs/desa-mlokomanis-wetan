@@ -2,18 +2,42 @@
 <html lang="id">
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+        <!-- Primary Meta -->
         <title>Desa Mlokomanis Wetan</title>
+        <meta name="title" content="Desa Mlokomanis Wetan" />
+        <meta name="description" content="Website resmi Desa Mlokomanis Wetan, Kecamatan Ngadirojo, Kabupaten Wonogiri. Informasi desa, profil, layanan masyarakat, dan berbagai informasi terbaru desa." />
+
+        <meta name="keywords" content="Desa Mlokomanis Wetan, Desa Wonogiri, Ngadirojo, Pemerintah Desa, Layanan Desa" />
+
+        <meta name="author" content="Pemerintah Desa Mlokomanis Wetan" />
 
         <!-- Favicon -->
         <link rel="icon" type="image/webp" href="assets/img/logo.webp" />
         <link rel="shortcut icon" href="assets/img/logo.webp" />
         <link rel="apple-touch-icon" href="assets/img/logo.webp" />
 
+        <!-- Open Graph (WhatsApp, Facebook, LinkedIn) -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://desa-mlokomanis-wetan.vercel.app/" />
+        <meta property="og:title" content="Desa Mlokomanis Wetan" />
+        <meta property="og:description" content="Website resmi Desa Mlokomanis Wetan. Temukan informasi profil desa, layanan masyarakat, berita, dan informasi terbaru desa." />
+        <meta property="og:image" content="https://desa-mlokomanis-wetan.vercel.app/assets/img/logo.webp" />
+
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Desa Mlokomanis Wetan" />
+        <meta name="twitter:description" content="Website resmi Desa Mlokomanis Wetan, Kecamatan Ngadirojo, Kabupaten Wonogiri." />
+        <meta name="twitter:image" content="https://desa-mlokomanis-wetan.vercel.app/assets/img/logo.webp" />
+
+        <!-- Tailwind -->
         <script src="https://cdn.tailwindcss.com"></script>
+
+        <!-- Alpine JS -->
         <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
+        <!-- Bootstrap Icon -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
 
         <style>
@@ -212,7 +236,7 @@
         <section id="beranda" class="relative min-h-screen flex items-center justify-center overflow-hidden">
             <!-- Background -->
             <div class="absolute inset-0">
-                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1800&q=80" class="w-full h-full object-cover scale-105" alt="Desa Mlokomanis Wetan" />
+                <img src="assets/img/image1.webp" class="w-full h-full object-cover scale-105" alt="Desa Mlokomanis Wetan" />
 
                 <!-- Overlay -->
                 <div class="absolute inset-0 bg-gradient-to-br from-emerald-950/80 via-emerald-900/65 to-cyan-900/55"></div>
@@ -262,19 +286,16 @@
             </div>
         </section>
 
-        <section id="tentang" class="relative py-24 overflow-hidden">
-            <!-- Background -->
-            <div class="absolute inset-0 bg-gradient-to-b from-emerald-50 via-cyan-50 to-white"></div>
-            <div class="absolute -top-32 -right-32 w-96 h-96 bg-emerald-300/20 rounded-full blur-3xl"></div>
-            <div class="absolute -bottom-32 -left-32 w-96 h-96 bg-emerald-300/20 rounded-full blur-3xl"></div>
+        <section id="tentang" class="relative py-24 overflow-hidden bg-gradient-to-b from-emerald-50 via-cyan-50 to-white">
+            <!-- Decorative Blur -->
+            <!-- <div class="absolute -top-32 -right-32 w-96 h-96 bg-emerald-300/20 rounded-full blur-3xl"></div> -->
+            <!-- <div class="absolute -bottom-32 -left-32 w-96 h-96 bg-emerald-300/20 rounded-full blur-3xl"></div> -->
 
             <div class="relative max-w-7xl mx-auto px-6">
                 <div class="grid lg:grid-cols-2 gap-16 items-center">
                     <!-- Image -->
                     <div class="relative group">
-                        <div class="absolute -inset-3 rounded-3xl bg-gradient-to-r from-emerald-500 via-cyan-400 to-emerald-400 blur opacity-20"></div>
-
-                        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80" class="relative rounded-3xl shadow-2xl object-cover h-[520px] w-full" alt="Desa Mlokomanis Wetan" />
+                        <img src="assets/img/image1.webp" class="relative shadow-2xl rounded-3xl object-cover h-[520px] w-full" alt="Desa Mlokomanis Wetan" />
 
                         <!-- Floating Card -->
                         <div class="absolute bottom-6 left-6 bg-white/90 backdrop-blur-md border border-emerald-100 rounded-2xl shadow-xl px-6 py-4">
@@ -371,12 +392,7 @@
             </div>
         </section>
 
-        <section id="layanan" class="relative py-24 overflow-hidden">
-            <!-- Background -->
-            <div class="absolute inset-0 bg-gradient-to-b from-emerald-50 via-cyan-50 to-white"></div>
-            <div class="absolute -top-32 left-0 w-96 h-96 bg-emerald-300/20 rounded-full blur-3xl"></div>
-            <div class="absolute -bottom-32 right-0 w-96 h-96 bg-emerald-300/20 rounded-full blur-3xl"></div>
-
+        <section id="layanan" class="relative py-24 overflow-hidden bg-gradient-to-b from-white via-cyan-50 to-emerald-50">
             <div class="relative max-w-7xl mx-auto px-6">
                 <!-- Heading -->
                 <div class="text-center max-w-5xl mx-auto">
@@ -470,12 +486,7 @@
             </div>
         </section>
 
-        <section id="potensi" class="relative py-24 overflow-hidden">
-            <!-- Background -->
-            <div class="absolute inset-0 bg-gradient-to-b from-white via-emerald-50 to-cyan-50"></div>
-            <div class="absolute -top-32 -left-32 w-96 h-96 bg-emerald-300/20 rounded-full blur-3xl"></div>
-            <div class="absolute -bottom-32 -right-32 w-96 h-96 bg-emerald-300/20 rounded-full blur-3xl"></div>
-
+        <section id="potensi" class="relative py-24 overflow-hidden bg-gradient-to-b from-emerald-50 via-cyan-50 to-white">
             <div class="relative max-w-7xl mx-auto px-6">
                 <!-- Heading -->
                 <div class="text-center max-w-5xl mx-auto">
@@ -530,12 +541,7 @@
             </div>
         </section>
 
-        <section id="lokasi" class="relative py-24 overflow-hidden">
-            <!-- Background -->
-            <div class="absolute inset-0 bg-gradient-to-b from-emerald-50 via-cyan-50 to-white"></div>
-            <div class="absolute -top-32 -right-32 w-96 h-96 bg-emerald-300/20 rounded-full blur-3xl"></div>
-            <div class="absolute -bottom-32 -left-32 w-96 h-96 bg-emerald-300/20 rounded-full blur-3xl"></div>
-
+        <section id="lokasi" class="relative py-24 overflow-hidden bg-gradient-to-b from-white via-cyan-50 to-emerald-50">
             <div class="relative max-w-7xl mx-auto px-6">
                 <!-- Heading -->
                 <div class="text-center max-w-5xl mx-auto">
